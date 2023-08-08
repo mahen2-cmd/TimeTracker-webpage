@@ -7,9 +7,9 @@ function Identity(props) {
     return (
         <div className="identity">
             <div
-                style={{
-                    margin: "20px",
-                }}
+                // style={{
+                //     margin: "20px",
+                // }}
             >
                 <div style={{ width: "100px", height: "110px" }}>
                     <img
@@ -22,6 +22,8 @@ function Identity(props) {
                             borderRadius: "50%",
                             width: "70px",
                             height: "70px",
+                            marginLeft: "20px",
+                            marginTop: "20px",
                         }}
                     />
                 </div>
@@ -31,6 +33,8 @@ function Identity(props) {
                         color: "hsl(236, 100%, 87%)",
                         fontSize: "12px",
                         marginBottom: "3px",
+                        marginLeft: "20px",
+                        marginTop: "20px",
                     }}
                 >
                     Report for
@@ -38,8 +42,9 @@ function Identity(props) {
                 <div
                     style={{
                         color: "white",
-                        fontSize: "40px",
+                        fontSize: "35px",
                         fontWeight: "300",
+                        marginLeft: "20px",
                     }}
                 >
                     Jeremy Robson

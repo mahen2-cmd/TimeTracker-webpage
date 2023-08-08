@@ -1,29 +1,37 @@
 import React from "react";
 import Card from "./Card.js";
 import "./Container.css";
-import Identity from "./Identity.js";
+// import Identity from "./Identity.js";
+import FirstSection from "./FirstSection.js";
 
 function Container(props) {
     return (
         <div className="container">
             {/* {props.text} */}
-            <Identity />
+            <FirstSection />
             <div>
-
-                <Card text="4hrs"/>
-                <Card text="10hrs"/>
+                <div style={{ marginBottom: "25px", }}>
+                    <Card text="32hrs" />
+                </div>
+                <div >
+                    <Card text="4hrs" />
+                </div>
             </div>
-
             <div>
-
-                <Card text="32hrs"/>
-                <Card text="4hrs"/>
+                <div style={{ marginBottom: "25px", }}>
+                    <Card text="10hrs" />
+                </div>
+                <div >
+                    <Card text="5hrs" />
+                </div>
             </div>
-
             <div>
-
-                <Card text="5hrs"/>
-                <Card text="2hrs"/>
+                <div style={{ marginBottom: "25px", }}>
+                    <Card text="4hrs" />
+                </div>
+                <div >
+                    <Card text="2hrs" />
+                </div>
             </div>
         </div>
     );

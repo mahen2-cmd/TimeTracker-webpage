@@ -1,0 +1,16 @@
+.firstSection{
+    width: 225px;
+    height: 425px;
+    background-color: hsl(235, 46%, 20%);
+    color: white;
+}
+
+.text-container{
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* margin-bottom: 20px; */
+    /* justify-content: space-between; */
+}

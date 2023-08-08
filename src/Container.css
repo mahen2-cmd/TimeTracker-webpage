@@ -1,8 +1,9 @@
 .container {
-    width: 1000px;
+    width: 975px;
     height: 425px;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     flex-direction: row;
     display: flex;
+    justify-content: space-between;
 
 }
