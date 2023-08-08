@@ -14,3 +14,15 @@
     /* margin-bottom: 20px; */
     /* justify-content: space-between; */
 }
+
+
+.viewType {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: hsl(235, 45%, 61%);
+}
+
+
+.viewType:hover {
+    color: white;
+}

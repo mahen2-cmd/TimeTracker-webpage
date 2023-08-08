@@ -16,3 +16,13 @@
     /* padding: 50px; */
 
 }
+
+
+.lower-section:hover {
+    background-color: hsl(236, 41%, 34%);
+}
+
+/* 
+.lower-section:hover.card{
+    background-color: blueviolet;
+} */

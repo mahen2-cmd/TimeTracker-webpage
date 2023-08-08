@@ -4,7 +4,7 @@ import ThreeCircles from "./ThreeCircles.js";
 import Time from "./Time.js"
 import "./Card.css";
 import LastWeekHours from "./LastWeekHours.js";
-import Logo from "./Logo.js";
+// import Logo from "./Logo.js";
 
 // function MyComponent(props) {
 //     const { backgroundColor } = props;

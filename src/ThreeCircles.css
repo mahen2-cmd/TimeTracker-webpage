@@ -5,6 +5,10 @@
     margin-right: 30px;
 }
 
+.three-circles:hover > .small-circle {
+    background-color: white;
+}
+
 
 .small-circle {
     width: 4px;

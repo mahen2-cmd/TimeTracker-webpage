@@ -7,9 +7,9 @@ function FirstSection(props) {
         <div className="firstSection">
             <Identity />
             <div className="text-container">
-                <div style={{ marginBottom: "15px", fontSize: "15px", color: "hsl(235, 45%, 61%)"  }} >Daily</div>
-                <div style={{ marginBottom: "15px", fontSize: "15px", color: "white"  }} >Weekly</div>
-                <div style={{ marginBottom: "15px", fontSize: "15px", color: "hsl(235, 45%, 61%)"  }} >Monthly</div>
+                <div className="viewType">Daily</div>
+                <div className="viewType">Weekly</div>
+                <div className="viewType">Monthly</div>
             </div>
         </div>
     );
