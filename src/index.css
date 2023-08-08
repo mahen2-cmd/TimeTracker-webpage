@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: hsl(226, 43%, 10%);
+  font-family: 'Rubik', sans-serif;
 }
 
 code {

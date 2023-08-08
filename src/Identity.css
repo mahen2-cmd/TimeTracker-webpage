@@ -1,0 +1,10 @@
+.identity{
+    width: 225px;
+    height: 300px;
+    background-color: hsl(246, 80%, 60%);
+    justify-content: left;
+    text-align: left;
+    border-radius: 20px;
+    /* margin: 20px; */
+
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Time from "./Time.js"
+import Container from "./Container.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* <Time text="32hrs"/>
+      <Time text="10hrs"/>
+      <Time text="4hrs"/>
+      <Time text="4hrs"/>
+      <Time text="5hrs"/>
+      <Time text="2hrs"/> */}
+      <Container />
+
     </div>
   );
 }

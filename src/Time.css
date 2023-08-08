@@ -1,0 +1,9 @@
+.time{
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 45px;
+    /* background-color: orange; */
+    justify-content: left;
+    font-weight: 300;
+}

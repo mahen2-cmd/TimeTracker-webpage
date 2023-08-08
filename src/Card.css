@@ -1,0 +1,7 @@
+.card{
+    width: 225px;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    /* margin-bottom: 12.5px; */
+}
