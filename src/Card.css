@@ -1,7 +1,7 @@
 .card{
     width: 225px;
     height: 200px;
-    background-color: hsl(15, 100%, 70%);
+    /* background-color: hsl(15, 100%, 70%); */
     border-radius: 20px;
     /* margin-top: 20px; */
 }
@@ -14,19 +14,4 @@
     align-self: flex-end;
     /* padding: 50px; */
 
-}
-
-.small-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: hsl(237, 31%, 62%);
-    margin-right: 5px;
-}
-
-
-.three-circles {
-    display: flex;
-    justify-content: right;
-    align-items: right;
 }

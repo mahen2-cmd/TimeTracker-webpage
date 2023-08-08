@@ -1,8 +1,8 @@
-.time{
-    color: white;
+.lastWeekHours {
+    color: hsl(236, 100%, 87%);
     width: 150px;
-    height: 45px;
-    font-size: 45px;
+    height: 20px;
+    font-size: 12px;
     /* background-color: orange; */
     justify-content: left;
     font-weight: 300;

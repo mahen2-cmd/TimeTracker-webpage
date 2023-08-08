@@ -1,0 +1,15 @@
+.three-circles {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 30px;
+}
+
+
+.small-circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: hsl(237, 31%, 62%);
+    margin-right: 5px;
+}

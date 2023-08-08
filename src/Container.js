@@ -10,27 +10,27 @@ function Container(props) {
             {/* {props.text} */}
             <FirstSection />
             <div>
-                <div style={{ marginBottom: "25px", }}>
-                    <Card text="32hrs" />
+                <div style={{ marginBottom: "25px" }}>
+                    <Card thisWeekHours="32hrs" backgroundColor="hsl(15, 100%, 70%)" category="Work" lastWeekHours="36hrs"/>
                 </div>
-                <div >
-                    <Card text="4hrs" />
-                </div>
-            </div>
-            <div>
-                <div style={{ marginBottom: "25px", }}>
-                    <Card text="10hrs" />
-                </div>
-                <div >
-                    <Card text="5hrs" />
+                <div>
+                    <Card thisWeekHours="4hrs" backgroundColor="hsl(145, 58%, 55%)" category="Exercise" lastWeekHours="5hrs"/>
                 </div>
             </div>
             <div>
-                <div style={{ marginBottom: "25px", }}>
-                    <Card text="4hrs" />
+                <div style={{ marginBottom: "25px" }}>
+                    <Card thisWeekHours="10hrs" backgroundColor="hsl(195, 74%, 62%)" category="Play" lastWeekHours="8hrs"/>
                 </div>
-                <div >
-                    <Card text="2hrs" />
+                <div>
+                    <Card thisWeekHours="5hrs" backgroundColor="hsl(264, 64%, 52%)" category="Social" lastWeekHours="10hrs"/>
+                </div>
+            </div>
+            <div>
+                <div style={{ marginBottom: "25px" }}>
+                    <Card thisWeekHours="4hrs" backgroundColor="hsl(348, 100%, 68%)" category="Study" lastWeekHours="7hrs"/>
+                </div>
+                <div>
+                    <Card thisWeekHours="2hrs" backgroundColor="hsl(43, 84%, 65%)" category="Self Care" lastWeekHours="2hrs"/>
                 </div>
             </div>
         </div>
