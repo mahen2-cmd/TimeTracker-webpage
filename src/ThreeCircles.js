@@ -14,7 +14,7 @@ function ThreeCircles(props) {
             <div
                 className="small-circle"
                 style={{
-                    marginRight: "3px",
+                    marginRight: "2.5px",
                 }}
             ></div>
             <div className="small-circle"></div>

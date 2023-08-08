@@ -8,10 +8,11 @@
 
 .lower-section {
     width: 225px;
-    height: 175px;
+    height: 167px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
     align-self: flex-end;
+    margin-top: 15px;
     /* padding: 50px; */
 
 }

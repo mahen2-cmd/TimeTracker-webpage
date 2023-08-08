@@ -4,6 +4,7 @@ import ThreeCircles from "./ThreeCircles.js";
 import Time from "./Time.js"
 import "./Card.css";
 import LastWeekHours from "./LastWeekHours.js";
+import Logo from "./Logo.js";
 
 // function MyComponent(props) {
 //     const { backgroundColor } = props;
@@ -30,8 +31,12 @@ function Card(props) {
         <div style={{ backgroundColor }}
             className="card">
             {/* <div style={{ marginTop: "25px" }}> */}
+
+            {/* <Logo logoName= "Work"/> */}
+
+
             <br />
-            <br />
+            {/* <br /> */}
             {/* <br /> */}
             <div className="lower-section">
                 <br />
@@ -50,7 +55,7 @@ function Card(props) {
                             marginTop: "10px",
                         }}
                     >
-                        <div style={{ color: "white", marginLeft: "30px" }}>
+                        <div style={{ color: "white", marginLeft: "30px" , fontWeight: "500"}}>
                             {props.category}
                         </div>
 
